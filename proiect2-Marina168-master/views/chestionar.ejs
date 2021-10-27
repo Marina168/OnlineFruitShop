@@ -1,0 +1,20 @@
+
+<% corect=0 %>
+<fieldset>
+<legend><h1>Tu ce știi despre fructele pe care le consumi?</h1></legend>
+<form action="/rezultat-chestionar" method="POST">
+    <% for(let i=1; i < intrebari.length; ++i){ %>
+        
+        <label><%- i-%><%- intrebari[i].intrebare %></label> 
+        <br />
+        <% for(let j=0; j < intrebari[i].variante.length; ++j){ %>
+            <input type="radio"  name="<%= i%>" value="<%= j %>" />
+            <%= intrebari[i].variante[j] %>
+        <%} %>
+        <br /><br />
+        <input type="hidden" value="<%= intrebari[i].corect %>" />
+    <%} %>
+    <br /><br/>
+    <input type="submit" value="Trimite"/>
+</form>
+</fieldset>

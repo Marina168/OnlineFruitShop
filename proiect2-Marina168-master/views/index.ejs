@@ -1,0 +1,34 @@
+<html>
+<head>
+</head>
+    <% if(username) {%>
+        <h1>Bine ai venit, <%=username %></h1>
+        <a class ="autentificare " href="/delogare">Delogare</a>
+        <a href="/creare-bd" id ="BDbutton">Creare BD</a>
+        <a href="/inserare-bd" id ="BDbutton">Incarcare BD</a>
+        <a href="/vizualizare-cos" id ="BDbutton">Cosul de cumparaturi</a>
+        <% if(rows) {%>
+        <h2>Produse</h2>
+        <table>
+            <tr><th>ID</th><th>DENUMIRE</th><th>PRET</th><th>Alegeti produsul dorit</th></tr>
+            <% rows.forEach(function(rows){ %>
+                <tr>
+                <td><%=rows.Id%></td>
+                <td><%=rows.Denumire%></td>
+                <td><%=rows.Pret%></td>
+                <td><a href='/adaugare-cos?Id=<%=rows.Id%>' id ="BDbutton">Adaugare cos</a></td>
+                </tr>
+                <%})%> 
+            </table></br></br>  
+        <%}%>
+       
+    <%}else{%>
+    <h1>Bine ai venit! :) </h1>
+    <div class=" autentificare">
+         <a href="http://localhost:6789/autentificare"  ><strong>Autentificare</strong></a>
+         
+    </div>
+    <br><br><br>
+    <img src="Imagini/fructeee.jpg" alt="fructe">
+    <%}%>
+</html>

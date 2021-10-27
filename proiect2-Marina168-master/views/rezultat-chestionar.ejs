@@ -1,0 +1,14 @@
+<h1>Rezultat Chestionar</h1>
+<ol>
+<% var corect =0;
+     for(let i=0; i < intrebari.length; ++i){ 
+        if(intrebari[i].corect == raspunsuri[i])
+        {
+            corect+=1;
+            %>  <li value="<%=i+1%>"><%= intrebari[i].intrebare%><br>
+                <%=intrebari[i].variante[intrebari[i].corect]%><br>
+                </li>
+
+        <%}}%>
+</ol>
+<p>Numarul de raspunsuri corecte este: <%=corect%>.</p>

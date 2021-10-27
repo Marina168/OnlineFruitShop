@@ -1,0 +1,14 @@
+<h3>Produsele adăugate în coș</h3>
+<%if(rows){%>
+
+    <table>
+        <tr><th>ID</th><th>DENUMIRE</th><th>PRET</th></tr>
+        <% rows.forEach(function(rows){ %>
+            <tr>
+            <td><%=rows.Id%></td>
+            <td><%=rows.Denumire%></td>
+            <td><%=rows.Pret%></td>
+        <%})%> 
+    </table><br><br>
+
+<%}%>

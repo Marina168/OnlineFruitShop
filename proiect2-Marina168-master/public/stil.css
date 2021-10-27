@@ -1,0 +1,104 @@
+h1
+{
+    align-content: center;
+    
+    text-align: center;
+    color: #34495E;
+}
+html
+{
+    background-color: #EBEDEF;
+}
+fieldset {
+   border:2px solid  #34495E;
+   background-color: azure;
+}
+input
+{
+    color:rgb(1, 2, 1)
+}
+img{
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+#BDbutton{
+    background-color: #34495E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#BDbutton:hover
+  {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+a 
+{
+    color:white;
+}
+.autentificare
+{
+    background-color: #34495E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    background:url(../Imagini/f.jpg);
+    color: #EBEDEF;
+    
+   
+  }
+  .table-data{
+    position: relative;
+    left:150px;
+    top:100px;
+    
+  }
+  th, td {
+    padding: 15px;
+  }
+  
+  footer {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    line-height: 40px;
+    font-size: 0.9em;
+    text-align: center;
+    bottom:0;
+}
+.errormsg
+{
+    color:red;
+}

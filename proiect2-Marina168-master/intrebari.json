@@ -1,0 +1,35 @@
+[
+    {
+        "intrebare": "Care este cel mai bogat fruct in Vitamina C?",
+        "variante": ["acerola", "portocala", "kiwi","lămâia"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Cărei familii de plante aparțin merele?",
+        "variante": ["Pinacea", "Meliaceae", "Solanaceae", "Rosaceae"],
+        "corect": 3
+    },
+    {
+        "intrebare": "Care sunt cele mai populare fructe din lume?",
+        "variante":["Portocalele", "Roșiile", "Castraveții", "Rodiile"],
+        "corect": 1
+    },
+
+    {
+        "intrebare": "Ce fruct ar putea provoca decesul în combinație cu anumite medicamente",
+        "variante": ["Grapefrutul", "Kiwi", "Strugurii", "Cireșele"],
+        "corect": 0
+    },
+
+    {
+        "intrebare": "Care dintre fructele următoare sunt puțin radioactive?",
+        "variante": ["Banana", "Pepene Roșu", "Pepene galben", "Căpșunile"],
+        "corect": 0
+    },
+
+    {
+        "intrebare": "În ce țară pepenii se găsesc sub formă de cub?",
+        "variante": ["Japonia", "China", "Taiwan", "Indonezia"],
+        "corect": 0
+    }
+]
